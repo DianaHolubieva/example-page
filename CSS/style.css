@@ -130,7 +130,22 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   /* margin-top: 142px;*/
+}
+.mobile-app{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    text-align: center;
+    margin-top: 56px;
+}
+.mobile-container{
+    margin-right: 142px;
+    margin-top: 100px;
+    margin-bottom: 79px;
 }
 .mobile_head{
     font-family: Montserrat;
@@ -162,4 +177,48 @@ button{
     color: #737373;
     margin: 27px 0;
     max-width: 467px;
+}
+.container-2{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.mobile1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.mobile_head1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+.mobile_title1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 462px;
+}
+.mobile_text1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.mobile-container1{
+    margin-top: 29px;
+    margin-left: 197px;
+    margin-bottom: 185px;
 }
