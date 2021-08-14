@@ -117,7 +117,7 @@ button{
     margin: 0px 10px;
 }
 .order{
-    background-image: url('/img/image2.png');
+    background-image: url("/img/image2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -221,4 +221,29 @@ button{
     margin-top: 29px;
     margin-left: 197px;
     margin-bottom: 185px;
+}
+@media screen and (max-width: 414px){
+.container{
+    width: 414px;
+    height: 112px;
+}
+.cont-flex{
+    display: flex;
+}
+nav:last-child{
+    margin: 0px 100px;
+}
+.restapp{
+    background: none;
+    color: white;
+    text-align: center;
+    padding: 80px 0 178px ;
+}
+.restapp-info{
+    color: #737373;
+    t
+    width: 150px;
+    height: 24px;
+    font-size: 90%;
+}
 }
